@@ -48,7 +48,7 @@ Now add the following code. This is the essential initialization code for a Harm
         }
 ```
 
-[1] The identifier in this line should match the one from your ModInfo.xml in this line: `<Name value="yournickname_mynewharmonymod"/>`
+[1] The Harmony identifier should match the mod identifier specified in ModInfo.xml: `<Name value="yournickname_mynewharmonymod"/>`
 
 ## Step 5
 
