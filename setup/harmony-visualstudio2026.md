@@ -31,6 +31,9 @@ using HarmonyLib;
 using UnityEngine;
 ```
 
+* Remove any unused `using` directives from the file. In particular, make sure to remove: `using System.Diagnostics;` This namespace can cause a conflict with `Debug.Log`, as both `System.Diagnostics.Debug` and `UnityEngine.Debug` can be referenced as `Debug`.
+
+
 ## Step 4 
 
 Now add the following code. This is the essential initialization code for a Harmony mod. It creates the Harmony instance and applies all patches when the mod is loaded.
