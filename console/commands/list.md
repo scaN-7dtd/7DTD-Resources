@@ -1,4 +1,4 @@
-## 7DTD Console Commands V 3.2.0 (b10)
+## 7DTD Console Commands List V 3.2.0 (b10)
 
 
 Obtained using the command `help output`.
